@@ -2,7 +2,7 @@ name: xue
 version: 2.1.0
 api: 2.0.0
 main: xue\Main
-author: yourname
+author: Liuhh & DeepSeek(ai)
 description: 死亡减少心与经验，生命水晶兑换，血量提取经验
 
 commands:
