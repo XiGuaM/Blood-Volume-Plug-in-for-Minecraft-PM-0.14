@@ -1,0 +1,22 @@
+name: xue
+version: 2.1.0
+api: 2.0.0
+main: xue\Main
+author: yourname
+description: 死亡减少心与经验，生命水晶兑换，血量提取经验
+
+commands:
+  生命水晶:
+    description: 消耗5级经验兑换一个生命水晶
+    usage: /生命水晶
+    permission: xue.command.crystal
+  血量提取:
+    description: 减少一颗心换取5级经验
+    usage: /血量提取
+    permission: xue.command.extract
+
+permissions:
+  xue.command.crystal:
+    default: true
+  xue.command.extract:
+    default: true
